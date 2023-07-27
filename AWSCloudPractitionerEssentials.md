@@ -54,7 +54,7 @@ The ELB also scales up with no costs if we have more incoming traffic. It can be
 
 ---
 
-### Amazon SNS and Amazon SQS
+#### Amazon SNS and Amazon SQS
 Amazon products based on Pub/Sub (Queue/Topic) pattern for async processing providing `Loosely coupled architecture`.
 
 **Amazon Simple Queue Service [SQS]**
@@ -67,4 +67,7 @@ Basically a TOPIC instance hosted by AWS
 
 ---
 
+### Amazon Serverless Solutions
+
+Serverless: You can't see or access the underlying infrastructure that are hosting your app (so you also don't have to manage, like patching, etc) 
 
