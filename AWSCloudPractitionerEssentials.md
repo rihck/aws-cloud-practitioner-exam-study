@@ -25,12 +25,22 @@ Ordering: More expansive to less expansive
 - Spot instances: Can be 90% cheaper than OnDemand BUT the catch here is that AWS can request this instance back anytime, it notifies you 2 minutes before turning the instance down. This type is ideal for proccess that can be interrupted like batches 
 - Dedicated Hosts: Basically a phisical server only for you, suitable when you have law requiriments of not sharing the same hardware with other companies/proccess, so in this case it's not a multi-tenancy approach like the default AWS strategy.
 
-**Scalability and Elasticity**
+#### Scalability
 When working on-premise, you have to predict the high work loads and buy a hardware accordingly BUT it can be a waste of money if you don't use most of the time. Your worse, you buy a hardware to handle the average workload and you're not ready for peaks.
 ![Resources on Demand](resourcesOnDemand.png)
 
 AWS/Cloud is different because you can scape up and down whenever you need.
 ![Resources on Cloud](resourcesOnCloud.png)
+
+Types of scalling:
+- Up (Vertical): Add more resource to the instance
+- Out (Horizontal): Add more instances
+
+Amazon has auto-scale solution `Amazon EC2 Auto Scaling to an application`, where you scale up to your demand. In this solution you can configure
+- Minimum: Number of instances AWS is going to deploy once you start the app
+- Desired: The number of number that is desired (if not provided will use the Minium as desired)
+- Maximum: The max instances you want to run, the limit.
+
 
 
 ---
