@@ -8,4 +8,21 @@
 - You control the networking aspect: type of request allowed to your server, public or private access, etc.
 - Amazon EC2 is `CaaS (Compute as a Service)` - You don't need to worry about the phisical server, you just need to worry about the resources you need to run your application.
 
+**Types of EC2 Instances**
+Each type has different combination of resources:
+
+- General purpose: (_Balance between CPU, Memory and Networking_) for: Webservers / Compute repositories
+- Compute optimized (_Compute intensive tasks_): Gaming servers; High performance computing (HPC); Scientific modeling
+- Memory optimized: (Memory intensive tasks): proccess large things in memory in a fast way
+- Accelerated computing (_Utilize hardware accelerators_): Floating point number calc, Graphics processing; Data pattern matching
+- Storage optimized: High performance for locally stored data
+
+**EC2 Instances Prices**
+Ordering: More expansive to less expansive 
+- On-Demand: Only pay per duration.
+- Sacings Plans: Offers lows price in trade of a commiment to a consistent usage
+- Reserved Instances: When you commit for this instance in 1 or 3 year commitment. 
+- Spot instances: Can be 90% cheaper than OnDemand BUT the catch here is that AWS can request this instance back anytime, it notifies you 2 minutes before turning the instance down. This type is ideal for proccess that can be interrupted like batches 
+- Dedicated Hosts: Basically a phisical server only for you, suitable when you have law requiriments of not sharing the same hardware with other companies/proccess, so in this case it's not a multi-tenancy approach like the default AWS strategy.
+
 ---
