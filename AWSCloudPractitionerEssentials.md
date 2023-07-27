@@ -43,7 +43,7 @@ Amazon has auto-scale solution `Amazon EC2 Auto Scaling to an application`, wher
 
 ---
 
-#### Elastic Load Balancing
+#### Elastic Load Balancing (ELB)
 To handle this situation where you have multiple instances BUT you can balance (load) the load between them.
 ![Elastic Load Balancer](multipleInstancesWithoutLoadBalancer.png)
 
