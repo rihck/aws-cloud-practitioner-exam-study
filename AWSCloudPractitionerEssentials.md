@@ -41,6 +41,14 @@ Amazon has auto-scale solution `Amazon EC2 Auto Scaling to an application`, wher
 - Desired: The number of number that is desired (if not provided will use the Minium as desired)
 - Maximum: The max instances you want to run, the limit.
 
-
-
 ---
+
+#### Elastic Load Balancing
+To handle this situation where you have multiple instances BUT you can balance (load) the load between them.
+![Elastic Load Balancer](multipleInstancesWithoutLoadBalancer.png)
+
+Your App can have its own Load Balancer BUT AWS has this Load Balancer solution called `Elastic Load Balancer` where it does it automatically for you.
+![Elastic Load Balancer](multipleInstancesWithoutLoadBalancer.png)
+
+The ELB also scales up with no costs if we have more incoming traffic. It can be used for external (client class) and internal traffic (services talking to each other)
+
