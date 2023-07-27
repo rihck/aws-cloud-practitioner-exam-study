@@ -65,4 +65,6 @@ Basically a QUEUE instance hosted my AWS
 Basically a TOPIC instance hosted by AWS
 - Pub/Sub approach where a Publisher publish to a Topic and N subscribers can read the same message from that topic.
 
+---
+
 
