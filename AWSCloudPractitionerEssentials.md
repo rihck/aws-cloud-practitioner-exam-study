@@ -25,4 +25,12 @@ Ordering: More expansive to less expansive
 - Spot instances: Can be 90% cheaper than OnDemand BUT the catch here is that AWS can request this instance back anytime, it notifies you 2 minutes before turning the instance down. This type is ideal for proccess that can be interrupted like batches 
 - Dedicated Hosts: Basically a phisical server only for you, suitable when you have law requiriments of not sharing the same hardware with other companies/proccess, so in this case it's not a multi-tenancy approach like the default AWS strategy.
 
+**Scalability and Elasticity**
+When working on-premise, you have to predict the high work loads and buy a hardware accordingly BUT it can be a waste of money if you don't use most of the time. Your worse, you buy a hardware to handle the average workload and you're not ready for peaks.
+![Resources on Demand](resourcesOnDemand.png)
+
+AWS/Cloud is different because you can scape up and down whenever you need.
+![Resources on Cloud](resourcesOnCloud.png)
+
+
 ---
