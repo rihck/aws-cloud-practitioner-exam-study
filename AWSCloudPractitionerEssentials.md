@@ -52,3 +52,10 @@ Your App can have its own Load Balancer BUT AWS has this Load Balancer solution 
 
 The ELB also scales up with no costs if we have more incoming traffic. It can be used for external (client class) and internal traffic (services talking to each other)
 
+---
+
+### Amazon SNS and Amazon SQS
+Amazon products based on Pub/Sub (Queue/Topic) pattern for async processing providing `Loosely coupled architecture`.
+
+
+
