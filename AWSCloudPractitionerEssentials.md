@@ -57,5 +57,12 @@ The ELB also scales up with no costs if we have more incoming traffic. It can be
 ### Amazon SNS and Amazon SQS
 Amazon products based on Pub/Sub (Queue/Topic) pattern for async processing providing `Loosely coupled architecture`.
 
+**Amazon Simple Queue Service [SQS]**
+Basically a QUEUE instance hosted my AWS
+- Send/Store/Receive messages (containing payload) between pieces of software at any volume
+
+**Amazon Simple Notification Service [SNS]**
+Basically a TOPIC instance hosted by AWS
+- Pub/Sub approach where a Publisher publish to a Topic and N subscribers can read the same message from that topic.
 
 
