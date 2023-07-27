@@ -75,4 +75,17 @@ Serverless: You can't see or access the underlying infrastructure that are hosti
 - AWS Lambda scale your Lambda functions according to your workload input.
 - Are designed to `run code < 15 minutes`, so it does't work for heavy proccess like Deep Learning, is suitable for things like back end services handling requests for example. 
 
+If you want a middle term between serverless, you can choose containers options (Docker Container), where you can deploy your app in a container and "manage the container configs".
+
+- **Amazon Elastic Container Service (ECS)**: Help to run containerized appls at scale without need to manage your container orchestration software.
+- **Amazon Elastic Kubernetes Service (EKS)**: Similar thing but with different tooling and features.
+
+They can both run on top of EC2 (your own instance) but you need a way/tool to manage containers (container orchestration), if you don't want to do that, you can use `AWS Fargate` is a serveless compute plataform for ECS/EKS.
+
+### Summary of when use each of AWS solutions:
+- **Amazon EC2**: Traditional applications and want full access to the OS
+- AWS Lambdas: short running functions; event driven appls, DON'T want to manage server at all.  
+- **Amazon ECS** or **Amazon EKS**: Run Docker container based workloads on AWS, then choose your plataform
+  - EC2: That you manage
+  - AWS Fargate: Serveless environment that is managed for you
 
