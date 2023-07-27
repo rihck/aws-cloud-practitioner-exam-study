@@ -71,3 +71,6 @@ Basically a TOPIC instance hosted by AWS
 
 Serverless: You can't see or access the underlying infrastructure that are hosting your app (so you also don't have to manage, like patching, etc) 
 
+**AWS Lambda**: Where you can `upload your code` in a "Lambda Function", `configure a Trigger`, the server `waits for the Trigger`, when the trigger is Met, the code is run in a env you should not worry about it.
+AWS Lambda scale your Lambda functions according to your workload input.
+
