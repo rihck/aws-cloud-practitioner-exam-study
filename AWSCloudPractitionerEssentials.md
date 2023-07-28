@@ -91,5 +91,12 @@ They can both run on top of EC2 (your own instance) but you need a way/tool to m
 
 ---
 
+### High availability and fault tolerance
+
+AWS has global infra structure, meaning that your app can run across multiple locations, it provides HA and FaultTolerance in case of disaster in a specific place/context.
+
+#### Region
+Regions are places where AWS put multiple data centers to serve your business needs, like São Paulo have a bunch of servers, you can decide to deploy your App there so Latency between São Paulo customers and your App are going to be low.
+
 
 
