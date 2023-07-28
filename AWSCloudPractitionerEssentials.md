@@ -113,5 +113,11 @@ AWS provides "Regional Services" solutions, like the ELB (Elastic Load Balancer)
 ---
 
 #### CDN
-CDN (Content Delivery Network) is basically a local copy of the central server that you place closer to the customer, like, if your App is far way from a country that has many customers, your place a CDN close to that country. This copy can be resources, files, etc.
+CDN (Content Delivery Network) is basically a local copy of the central server that you place closer to the customer, like, if your App is far way from a country that has many customers, your place a CDN close to that country to have lower latency. This copy can be resources, files, etc.
 **Amazon has a CDN service** called `Amazon CloudFront`
+
+#### Amazon CloudFront
+Helps deliver data, app, videos with low-latency, uses `Edge Locations`, it's like Edge Places where the copy of your content is placed to be closer to some places and reduce latency. You can push your content to a specific list of edge locations depending on your needs.
+
+Edge locations runs CDNs and also other services like DNS services like `Amazon Route 53`.
+We also have `AWS Outposts`, they basically install their service into your own building. 
