@@ -89,3 +89,7 @@ They can both run on top of EC2 (your own instance) but you need a way/tool to m
   - EC2: That you manage
   - AWS Fargate: Serveless environment that is managed for you
 
+---
+
+
+
