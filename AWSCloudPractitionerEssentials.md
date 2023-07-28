@@ -99,6 +99,11 @@ AWS has global infra structure, meaning that your app can run across multiple lo
 Regions are places where AWS put multiple data centers to serve your business needs, like São Paulo have a bunch of servers, you can decide to deploy your App there so Latency between São Paulo customers and your App are going to be low.
 
 Regions are separated, meaning that one region DOES NOT send/share data with other regions, unless you grant this permission, this is useful for security complience, like government ones for example.
+Some business requirements to choose your app region:
+- Compliance: Like Data must live in a specific place.
+- Proximity: How close your app is from your main costumers (latency)
+- Feature Availability: Some regions may not have all AWS features (may AWS did not install the hardware in there yet)
+- Pricing: Some regions are more expansive from others, Brazil is much more expansive than US for example.
 
 
 
