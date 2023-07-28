@@ -178,5 +178,18 @@ Basically a permission list to control the content that can get into the network
 A access control in the EC2 level (inside the VPC), for when you need different access permission at the Server level.
 ![Edge Loc](Ec2SecurityGroup.png)
 By default all EC2 instances come with a Security Group not allowing any kind of request from any IP to any port, you configure the way you want to: access specific types of request, IP, etc.
-Different from `ACL`, the security group **only validates the entrance**. They're also state different
+Different from `ACL`, the security group **only validates the entrance**. This because there is this state different
 ![Edge Loc](SecurityGroupAndACLDifference.png)
+
+Having this flow as example, EC Instance1 trying to send a package to EC Instance B.
+`Subnet1 (EC Instance A) -> Subnet1 (EC Instance B)`
+
+**Deliver**
+- EC2 InstanceA `SecurityGroup` allows the message to leave
+- Subnet1 `Network ACL` validates and allow
+- Subnet2 `Network ACL` validates and allow
+- EC2 InstanceB `SecurityGroup` allows the message to enter
+
+**Response Return**
+- Both EC2 InstanceA `SecurityGroup` DOES NOT validate it again, it "remembers" (stateful) the request come in and allow.
+- Both Subnet1 `Network ACL` VALIDATES it again, it DOES NOT remember (stateless) about the original request.
