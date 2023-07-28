@@ -193,3 +193,17 @@ Having this flow as example, EC Instance1 trying to send a package to EC Instanc
 **Response Return**
 - Both EC2 InstanceA `SecurityGroup` DOES NOT validate it again, it "remembers" (stateful) the request come in and allow.
 - Both Subnet1 `Network ACL` VALIDATES it again, it DOES NOT remember (stateless) about the original request.
+
+---
+
+### DNS
+Its like a translate service, it translates IP to Domains URLs. When the user enter a Adress, we route it to a IP.
+![Edge Loc](AmazonRoute53.png)
+
+#### Amazon Route 53
+The amazon service that does this routing, the user enters the domain name `Amazon Route 53` redirects the user to the related Amazon service instance. But that's not all, with this service you can configure this routing to be smart to:
+
+- Latency-based routing
+- Geolocation DNS: Traffic from one place is redirected to a closer region/zone where your app runs
+- Geoproximity routing
+- Weidghted round-robin
