@@ -118,6 +118,8 @@ CDN (Content Delivery Network) is basically a local copy of the central server t
 
 #### Amazon CloudFront
 Helps deliver data, app, videos with low-latency, uses `Edge Locations`, it's like Edge Places where the copy of your content is placed to be closer to some places and reduce latency. You can push your content to a specific list of edge locations depending on your needs.
+Example: Your App runs on Brazil, but the Customer is from Tokyo, Instead of requiring your customers to get their data from Brazil, you can cache a copy locally at an edge location that is close to your customers in China.
+![Edge Loc](AmazonEdgeLocationEx.png)
 
 Edge locations runs CDNs and also other services like DNS services like `Amazon Route 53`.
 We also have `AWS Outposts`, they basically install their service into your own building. 
