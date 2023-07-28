@@ -123,3 +123,15 @@ Example: Your App runs on Brazil, but the Customer is from Tokyo, Instead of req
 
 Edge locations runs CDNs and also other services like DNS services like `Amazon Route 53`.
 We also have `AWS Outposts`, they basically install their service into your own building. 
+
+---
+
+#### How to interact with these AWS Resources?
+Basically through API Calls (Application Programming interfaces), you can create Lambda Functions, EC2 Instances.
+To interact with the AWS Services:
+**AWS Management Console**: Browser based and can manage the AWS Resources visually
+![Edge Loc](AWSManagemenConsole.png)
+
+
+- AWS Command Line Interface (CLI)
+- AWS Software Development Kits (SDKs)
