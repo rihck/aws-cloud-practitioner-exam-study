@@ -166,3 +166,10 @@ VPCs are private with means you have to "attach adapters" to it to enable extern
 The technical reason to use sub-nets on VPC is to conttrols access to the gateways, the Public ones has access to the internet, the Private ones Don't.
 This way we can isolate resources we want to be public or don't.
 ![Edge Loc](vpcSubnets.png)
+
+Sub-nets can also control Traffict Permissions by Network access control list (Network ACL)
+
+#### Network ACL
+Basically a permission list to control the content that can get into the network. It controls based on
+- White or Black List IPs/users/origins 
+- Control who can enter and ALSO WHO CAN LEAVE! By entering doesn't mean you're going to leave.
