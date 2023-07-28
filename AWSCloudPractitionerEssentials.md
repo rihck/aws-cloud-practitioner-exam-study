@@ -173,4 +173,10 @@ Sub-nets can also control Traffict Permissions by Network access control list (N
 Basically a permission list to control the content that can get into the network. It controls based on
 - White or Black List IPs/users/origins 
 - Control who can enter and ALSO WHO CAN LEAVE! By entering doesn't mean you're going to leave.
+
+#### Security Group
+A access control in the EC2 level (inside the VPC), for when you need different access permission at the Server level.
 ![Edge Loc](Ec2SecurityGroup.png)
+By default all EC2 instances come with a Security Group not allowing any kind of request from any IP to any port, you configure the way you want to: access specific types of request, IP, etc.
+Different from `ACL`, the security group **only validates the entrance**. They're also state different
+![Edge Loc](SecurityGroupAndACLDifference.png)
