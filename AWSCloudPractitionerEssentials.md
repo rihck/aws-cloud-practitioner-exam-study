@@ -122,7 +122,7 @@ Example: Your App runs on Brazil, but the Customer is from Tokyo, Instead of req
 ![Edge Loc](AmazonEdgeLocationEx.png)
 
 Edge locations runs CDNs and also other services like DNS services like `Amazon Route 53`.
-We also have `AWS Outposts`, they basically install their service into your own building to run AWS Infrastucture in your Data Center (to serve like Edge Locations for you I think) 
+We also have `AWS Outposts`, they basically install their service into your own building to run AWS Infrastucture in your Data Center (Extend AWS infrastructure and services to your on-premises data center) 
 
 ---
 
