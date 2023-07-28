@@ -148,5 +148,17 @@ To interact with the AWS Services:
 
 ---
 
-#### Amazon Virtual Private Cloud (Amazon VPC)
+### Amazon Virtual Private Cloud (Amazon VPC)
 Lets you create a logically isolated section on the AWS Cloud where you can put AWS resource in networks we define. They can be public (internet access) or private (not internet). The public and private groupoing of resources are called sub-nets they are ranges of IP addresses in our VPC.
+
+We can define a private network on AWS to put our resources and restrict access to a range of private IPs. 
+
+#### VPC connection from the External World
+
+VPCs are private with means you have to "attach adapters" to it to enable external calls and there are some ways you can do it according to your needs:
+- To allow your VPC to public traffic: You attach a `Internet Gateway` to your VPC.
+- To allow your VPC for private traffic: You attach a `Virtual Private Gateway` to your VPC
+  ![Edge Loc](VPCTraffic.png)
+
+- `AWS Direct Connect`: Stablish Completly private fiber connection from your data center to AWS.
+  ![Edge Loc](AWSDirectConnect.png)
