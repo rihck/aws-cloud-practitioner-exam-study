@@ -129,9 +129,15 @@ We also have `AWS Outposts`, they basically install their service into your own 
 #### How to interact with these AWS Resources?
 Basically through API Calls (Application Programming interfaces), you can create Lambda Functions, EC2 Instances.
 To interact with the AWS Services:
-**AWS Management Console**: Browser based and can manage the AWS Resources visually
+**AWS Management Console**: Browser based and can manage the AWS Resources visually, good for:
+- Test environments
+- View AWS bills
+- View monitoring
+- Work with non-technical resources
 ![Edge Loc](AWSManagemenConsole.png)
 
 
-- AWS Command Line Interface (CLI)
+**AWS Command Line Interface (CLI)**
+
+
 - AWS Software Development Kits (SDKs)
