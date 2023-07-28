@@ -109,3 +109,9 @@ Some business requirements to choose your app region:
 Group of Data Center or One Data center is called `Zone` (or AZ), and Region is consisted in N `Zones` that are phisically isolated. The Zones are not next to each other, this to try to prevent disasters. AWS recomends running at least 2 availability zones in a Region.
 
 AWS provides "Regional Services" solutions, like the ELB (Elastic Load Balancer), that run across multiple regions to direct the workload balance between in your instances that may be running multiple across regions/zones.
+
+---
+
+#### CDN
+CDN (Content Delivery Network) is basically a local copy of the central server that you place closer to the customer, like, if your App is far way from a country that has many customers, your place a CDN close to that country. This copy can be resources, files, etc.
+**Amazon has a CDN service** called `Amazon CloudFront`
