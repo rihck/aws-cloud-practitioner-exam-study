@@ -142,4 +142,6 @@ To interact with the AWS Services:
 
 **AWS Software Development Kits (SDKs)**: Interact with AWS resources using varios programming languages (like a Lib/JAR)
 
-- **AWS Elastic Beanstalk**: Your basically tell this service what's your App code and desired config (how many instances, load balancer configs, etc), and it will manage it for you. This config is saved and can be replicable easilly in the future, the ideia of this solution is to focus on your business and let the services take care of the Infra Structure for you.
+**AWS Elastic Beanstalk**: Your basically tell this service what's your App code and desired config (how many instances, load balancer configs, etc), and it will manage it for you. This config is saved and can be replicable easilly in the future, the ideia of this solution is to focus on your business and let the services take care of the Infra Structure for you.
+
+**AWS Cloud Formation**: Infrastructure as code tool used to define AWS resources to be deployed, you define this in a JSON or YML file listing the resources you want, so you have a template that can be reused to deploy that resources everytime you need. `It helps you define WHAT you want but not worring about HOW`. It supports a bunch of AWS services like: Storage, Analytics, ML, etc.
