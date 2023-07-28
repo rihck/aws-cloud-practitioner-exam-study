@@ -162,3 +162,4 @@ VPCs are private with means you have to "attach adapters" to it to enable extern
 
 - `AWS Direct Connect`: Stablish Completly private fiber connection from your data center to AWS. Work with a direct connect partner in your area
   ![Edge Loc](AWSDirectConnect.png)
+
