@@ -106,5 +106,5 @@ Some business requirements to choose your app region:
 - Pricing: Some regions are more expansive from others, Brazil is much more expansive than US for example.
 
 #### Zones
-Group of Data Center or One Data center is called `Zone` (or AZ), and Region is consisted in N `Zones` that are phisically isolated. The Zones are not next to each other, this to try to prevent disasters.
+Group of Data Center or One Data center is called `Zone` (or AZ), and Region is consisted in N `Zones` that are phisically isolated. The Zones are not next to each other, this to try to prevent disasters. AWS recomends running at least 2 availability zones in a Region.
 
