@@ -160,5 +160,5 @@ VPCs are private with means you have to "attach adapters" to it to enable extern
 - To allow your VPC for private traffic: You attach a `Virtual Private Gateway` to your VPC
   ![Edge Loc](VPCTraffic.png)
 
-- `AWS Direct Connect`: Stablish Completly private fiber connection from your data center to AWS.
+- `AWS Direct Connect`: Stablish Completly private fiber connection from your data center to AWS. Work with a direct connect partner in your area
   ![Edge Loc](AWSDirectConnect.png)
