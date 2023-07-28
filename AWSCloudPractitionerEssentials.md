@@ -160,7 +160,7 @@ VPCs are private with means you have to "attach adapters" to it to enable extern
 - To allow your VPC for private traffic: You attach a `Virtual Private Gateway` to your VPC
   ![Edge Loc](VPCTraffic.png)
 
-- `AWS Direct Connect`: Stablish Completly private fiber connection from your data center to AWS. Work with a direct connect partner in your area
+- `AWS Direct Connect`: Stablish Completly private fiber connection from your data center to AWS. Work with a direct connect partner in your area (establish a private dedicated connection between your company’s data center and AWS)
   ![Edge Loc](AWSDirectConnect.png)
 
 The technical reason to use sub-nets on VPC is to conttrols access to the gateways, the Public ones has access to the internet, the Private ones Don't.
