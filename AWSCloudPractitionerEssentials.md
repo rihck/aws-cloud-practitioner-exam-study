@@ -169,7 +169,8 @@ This way we can isolate resources we want to be public or don't.
 
 Sub-nets can also control Traffict Permissions by Network access control list (Network ACL)
 
-#### Network ACL
+#### Network ACL (Network access control list)
 Basically a permission list to control the content that can get into the network. It controls based on
 - White or Black List IPs/users/origins 
 - Control who can enter and ALSO WHO CAN LEAVE! By entering doesn't mean you're going to leave.
+![Edge Loc](Ec2SecurityGroup.png)
