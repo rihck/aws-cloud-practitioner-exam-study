@@ -83,7 +83,7 @@ They can both run on top of EC2 (your own instance) but you need a way/tool to m
 
 ### Summary of when use each of AWS solutions:
 - **Amazon EC2**: Traditional applications and want full access to the OS
-- AWS Lambdas: short running functions; event driven appls, DON'T want to manage server at all.  
+- **AWS Lambdas**: short running functions; event driven appls, DON'T want to manage server at all.  
 - **Amazon ECS** or **Amazon EKS**: Run Docker container based workloads on AWS, then choose your plataform
   - EC2: That you manage
   - AWS Fargate: Serveless environment that is managed for you
