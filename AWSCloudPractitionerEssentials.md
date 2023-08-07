@@ -206,3 +206,7 @@ The amazon service that does this routing, the user enters the domain name `Amaz
 - Geolocation DNS: Traffic from one place is redirected to a closer region/zone where your app runs
 - Geoproximity routing
 - Weidghted round-robin
+
+---
+
+Module 5
