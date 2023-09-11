@@ -239,7 +239,8 @@ PS: You can configure to move between all these options automatically, like, if 
 Block storage breaks those files into small components, meaning that if you need to perform a little change in a 80GB file you don't need to upload all the file again.
 In the Object storage, every record is a object and if you need to perform a change on it, you need to upload everything again BUT the access is faster because each object has a unique URL and you can index it better depending on the context.
 
-
+**Summary:**
+_This means, if you are using complete objects or only occasional changes, S3 is victorious. If you are doing complex read, write, change functions, then, absolutely, EBS is your knockout winner._
 
 ---
 
