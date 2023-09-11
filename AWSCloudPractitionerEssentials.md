@@ -242,6 +242,13 @@ In the Object storage, every record is a object and if you need to perform a cha
 **Summary:**
 _This means, if you are using complete objects or only occasional changes, S3 is victorious. If you are doing complex read, write, change functions, then, absolutely, EBS is your knockout winner._
 
+
+---
+
+### Amazon Elastic File System (EFS)
+Is a managed file system. Is very similar to EBS but with a big difference. EBS stores data in a Single Avaliability Zone, because you attach a EBS to a EC2 instance in the same zone.
+The EFS is different, you store data in multiple Availability Zones, it scale up and "duplicate data" so it can be accessed across multiple zones and also On-Premisse instances can access this data topp.
+
 ---
 
 
