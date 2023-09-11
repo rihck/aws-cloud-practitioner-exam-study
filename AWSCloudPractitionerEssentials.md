@@ -250,6 +250,15 @@ The EFS is different, you store data in multiple Availability Zones, it scale up
 
 ---
 
+### Amazon Relational Database (RDS)
+Service that lets you run relation databases in the AWS Cloud. It supports like: MySql, Postgrees, Oracle, Microsoft and others
+
+#### Amazon Aurora
+Is an enterprise-class relational database, It is compatible with MySQL and PostgreSQL relational databases. It's faster than standard MYSQL DBs
+
+---
+
+
 
 
 
