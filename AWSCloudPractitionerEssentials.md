@@ -211,3 +211,15 @@ The amazon service that does this routing, the user enters the domain name `Amaz
 
 Module 5
 Exam scheduled for this Friday
+
+### Instance volume
+Depending on the EC2 instance you start it comes with an "Instance Store Volumes" that let's you store data there BUT this storage is attached to this EC2 instance (same lifecycle), if you terminate this the data will be deleted as well.
+You should use this storage for not important data, like temp files or data that can be easilly recreated.
+
+### Amazon Elastic Block Store (EBS)
+You can create virtual hard-drives (EBS volumes) that we can attach to EC2 instances. You define the EBS Volume you want by choosing Size, Types and Configs. It also allows incremental backups (snapshot).
+![Edge Loc](ebsIncrementalSnapshot.png)
+
+
+
+
