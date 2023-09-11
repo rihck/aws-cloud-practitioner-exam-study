@@ -220,6 +220,21 @@ You should use this storage for not important data, like temp files or data that
 You can create virtual hard-drives (EBS volumes) that we can attach to EC2 instances. You define the EBS Volume you want by choosing Size, Types and Configs. It also allows incremental backups (snapshot).
 ![Edge Loc](ebsIncrementalSnapshot.png)
 
+---
+
+### Amazon Simple Storage Service (Amazon S3)
+- You can upload any type of file to Amazon S3, such as images, videos, text files, etc.
+- Store data as objects that basically are composed of Data + Key and Metadata
+- Amazon S3 offers unlimited storage space. The maximum file size for an object in Amazon S3 is 5 TB.
+
+There are different tiers/classes you can define your data, it changes the price and the way you can access it, you should decide based on **How often you plan to retrieve your data** AND **How available you need your data to be**:
+- Standard: frequently accessed + Stores data in a minimum of three Availability Zones
+- S3 Standard-Infrequent Access (S3 Standard-IA): Similar to Amazon S3 Standard but has a lower storage price and higher retrieval price 
+- S3 One Zone-Infrequent Access (S3 One Zone-IA): Stores data in a single Availability Zone + Has a lower storage price than Amazon S3 Standard-IA
+- S3 Glacier Options (there are 3): Ideal for archival storage and the options vary according to how fast you need to access+how long you need to keep
+
+PS: You can configure to move between all these options automatically, like, if you don't access a file for 30 days, it moves to a cheaper option.
+
 
 
 
