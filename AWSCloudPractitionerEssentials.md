@@ -216,13 +216,13 @@ Exam scheduled for this Friday
 Depending on the EC2 instance you start it comes with an "Instance Store Volumes" that let's you store data there BUT this storage is attached to this EC2 instance (same lifecycle), if you terminate this the data will be deleted as well.
 You should use this storage for not important data, like temp files or data that can be easilly recreated.
 
-### Amazon Elastic Block Store (EBS)
+### Amazon Elastic Block Store (EBS) [Block Storage]
 You can create virtual hard-drives (EBS volumes) that we can attach to EC2 instances. You define the EBS Volume you want by choosing Size, Types and Configs. It also allows incremental backups (snapshot).
 ![Edge Loc](ebsIncrementalSnapshot.png)
 
 ---
 
-### Amazon Simple Storage Service (Amazon S3)
+### Amazon Simple Storage Service (Amazon S3) [Object Storage]
 - You can upload any type of file to Amazon S3, such as images, videos, text files, etc.
 - Store data as objects that basically are composed of Data + Key and Metadata
 - Amazon S3 offers unlimited storage space. The maximum file size for an object in Amazon S3 is 5 TB.
@@ -234,6 +234,15 @@ There are different tiers/classes you can define your data, it changes the price
 - S3 Glacier Options (there are 3): Ideal for archival storage and the options vary according to how fast you need to access+how long you need to keep
 
 PS: You can configure to move between all these options automatically, like, if you don't access a file for 30 days, it moves to a cheaper option.
+
+#### Difference between Block Storage (EBS) and Object Storage (S3)
+Block storage breaks those files into small components, meaning that if you need to perform a little change in a 80GB file you don't need to upload all the file again.
+In the Object storage, every record is a object and if you need to perform a change on it, you need to upload everything again BUT the access is faster because each object has a unique URL and you can index it better depending on the context.
+
+
+
+---
+
 
 
 
