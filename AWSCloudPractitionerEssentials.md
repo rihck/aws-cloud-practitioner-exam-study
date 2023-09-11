@@ -258,6 +258,13 @@ Is an enterprise-class relational database, It is compatible with MySQL and Post
 
 ---
 
+### Amazon DynamoDB
+It's a NoSQL Key-Value database provided by Amazon. It delivers single-digit millisecond performance at any scale.
+It's serverless and auto-scale -> VERY FAST and Scalable considering its nosql characteristics. 
+
+---
+
+### Amazon Redshift
 
 
 
