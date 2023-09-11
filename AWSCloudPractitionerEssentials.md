@@ -209,7 +209,7 @@ The amazon service that does this routing, the user enters the domain name `Amaz
 
 ---
 
-Module 5
+## Module 6: Storage and Databases
 Exam scheduled for this Friday
 
 ### Instance volume
@@ -290,7 +290,7 @@ Other usecases for DMS:
 
 ---
 
-
+## Module 7: Security 
 
 
 
