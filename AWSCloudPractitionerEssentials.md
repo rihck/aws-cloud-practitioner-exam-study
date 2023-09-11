@@ -292,6 +292,19 @@ Other usecases for DMS:
 
 ## Module 7: Security 
 
+### AWS Identity and Access Management (IAM)
+Enables you to manage access to AWS services and resources securely. IAM are based on
+- **IAM users, groups, and roles**: You create a user, and you can define access to things such as "mazon EC2 instance or creating an Amazon S3 bucket" to the user direcly or put the user in a group/add roles and define these permissions.
+- **IAM policies**: Document that allows or denies permissions to AWS services and resources. 
+
+PS: An IAM role is an identity that you can assume to gain temporary access to permissions. (Before an IAM user, application, or service can assume an IAM role, they must be granted permissions to switch to the role)
+
+---
+
+
+
+
+
 
 
 
