@@ -301,7 +301,12 @@ PS: An IAM role is an identity that you can assume to gain temporary access to p
 
 ---
 
+### AWS Organizations
+Consolidate and manage multiple AWS accounts within a central location by using service control policies (SCPs), nable you to place restrictions on the AWS services, resources, and individual API actions that users and roles in each account can access.
 
+#### Organizational units
+In AWS Organizations, you can group accounts into organizational units (OUs) to make it easier to manage accounts with similar business or security requirements. When you apply a policy to an OU, all the accounts in the OU automatically inherit the permissions specified in the policy.  
+![Org Units](OrgUnits.png)
 
 
 
