@@ -308,6 +308,10 @@ Consolidate and manage multiple AWS accounts within a central location by using 
 In AWS Organizations, you can group accounts into organizational units (OUs) to make it easier to manage accounts with similar business or security requirements. When you apply a policy to an OU, all the accounts in the OU automatically inherit the permissions specified in the policy.  
 ![Org Units](OrgUnits.png)
 
+**Which identities and resources can SCPs be applied to?** **An individual member account** AND **An organizational unit (OU)**
+
+---
+
 
 
 
