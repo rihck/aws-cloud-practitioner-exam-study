@@ -265,7 +265,8 @@ It's serverless and auto-scale -> VERY FAST and Scalable considering its nosql c
 ---
 
 ### Amazon Redshift
-
+Data warehousing as a Service, massively scalable and used for Big Data BI Solutions / Analytics.
+It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data.
 
 
 
