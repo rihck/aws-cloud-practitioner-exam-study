@@ -268,6 +268,19 @@ It's serverless and auto-scale -> VERY FAST and Scalable considering its nosql c
 Data warehousing as a Service, massively scalable and used for Big Data BI Solutions / Analytics.
 It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data.
 
+---
+
+### AWS Database Migration Service (AWS DMS)
+Used to migrate SQL, NoSQL and other types of data stores, you just select the source and the target; they can of different types and be both on premise or in AWS.
+During the migration, your source database remains operational, reducing downtime for any applications that rely on the database. 
+Other usecases for DMS: 
+- Develop and test migrations / 
+- Database consolidation (combine several DBS into one) / 
+- Continuos Replication
+
+
+
+
 
 
 
