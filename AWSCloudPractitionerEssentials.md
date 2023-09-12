@@ -346,3 +346,8 @@ Records API calls for your account, basically a log of actions related to your a
 
 ### AWS Trusted Advisor
 Inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices in five categories: cost optimization, performance, security, fault tolerance, and service limits. There's a dashboard you can see the 5 categories and recomendations 
+
+---
+---
+
+## Module 8: Pricing & Support
