@@ -358,3 +358,7 @@ Some AWS services are free to use and are divided in 3 categories
 - 12 Months Free: 1 year free to test
 - Trial: Especial condition to try that differ from: Hours of usage, times of usage, etc. Each service have its own rules
 
+### How AWS Pricing Works
+- **Pay for what you use**: No commitment, you pay only the time you start/stop the service.
+- **Pay less when you reserve**:  Basically when you commit to a certain amount of usage you have more discounts.
+- **Pay less when you use more**: For example, Services like S3 when you use more space, the price per/gb get's lower.
