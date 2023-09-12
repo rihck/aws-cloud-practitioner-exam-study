@@ -362,3 +362,7 @@ Some AWS services are free to use and are divided in 3 categories
 - **Pay for what you use**: No commitment, you pay only the time you start/stop the service.
 - **Pay less when you reserve**:  Basically when you commit to a certain amount of usage you have more discounts.
 - **Pay less when you use more**: For example, Services like S3 when you use more space, the price per/gb get's lower.
+
+### AWS Pricing Calculator
+Lets you explore AWS services and create an estimate for the cost of your use cases on AWS. Basically you put the things you would need and can compare the costs in general like per region for example, and also separe them by group
+
