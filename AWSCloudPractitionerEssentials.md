@@ -312,6 +312,21 @@ In AWS Organizations, you can group accounts into organizational units (OUs) to 
 
 ---
 
+#### Compilance
+AWS implements some complience needs and you need to see what fits for you and adapt in your needs
+There's a solution called **AWS Artifact**, that is a service that provides on-demand access to AWS security and compliance reports and select online agreements
+
+---
+
+### Denial-of-service (DoS) attack
+Is a deliberate attempt to make a website or application unavailable to users, trying to call your Apps multiple times from different sources.
+
+AWS Provides 2 solutions for hosted Application on AWS:
+- AWS Shield Standard: No cost, protects from commom DDoS ataccks, 
+- AWS Shield Advanced: Paid, Provides more detailed diagnostics on the attacks and you can customize rules to mitigate complex DDos attacks
+
+---
+
 
 
 
