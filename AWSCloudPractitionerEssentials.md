@@ -333,7 +333,15 @@ AWS Provides 2 solutions for hosted Application on AWS:
 - Amazon Inspector: Reminds Veracoe Scans, It checks applications for security vulnerabilities and deviations from security best practices, such as open access to Amazon EC2 instances and installations of vulnerable software versions. 
 - Amazon GuardDuty: provides intelligent threat detection for your AWS infrastructure and resources
 
+---
+---
 
+## Module 7: Monitoring & Analytics
 
+### Amazon CloudWatch
+Similar to Dynatrace, it enables you to monitor and manage various metrics and configure alarm actions based on data from those metrics.
 
+### AWS CloudTrail
+Records API calls for your account, basically a log of actions related to your account so you can check: WHO/WHERE/WHAT was done like: users being created by who, permissions changes, new resources, etc. There's also "CloudTrail Insights" that baiscally automatically detect unusual API activities in your AWS account
 
+### 
