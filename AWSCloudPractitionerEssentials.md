@@ -351,3 +351,10 @@ Inspects your AWS environment and provides real-time recommendations in accordan
 ---
 
 ## Module 8: Pricing & Support
+
+### AWS Free Tier Services
+Some AWS services are free to use and are divided in 3 categories
+- Always Free: Don't limit, use for how long and quantity you wat
+- 12 Months Free: 1 year free to test
+- Trial: Especial condition to try that differ from: Hours of usage, times of usage, etc. Each service have its own rules
+
