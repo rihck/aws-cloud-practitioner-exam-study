@@ -331,6 +331,7 @@ AWS Provides 2 solutions for hosted Application on AWS:
 - AWS Key Management Service (AWS KMS): enables you to perform encryption operations through the use of cryptographic keys
 - AWS WAF: is a web application firewall that lets you monitor network requests that come into your web applications
 - Amazon Inspector: Reminds Veracoe Scans, It checks applications for security vulnerabilities and deviations from security best practices, such as open access to Amazon EC2 instances and installations of vulnerable software versions. 
+- Amazon GuardDuty: provides intelligent threat detection for your AWS infrastructure and resources
 
 
 
