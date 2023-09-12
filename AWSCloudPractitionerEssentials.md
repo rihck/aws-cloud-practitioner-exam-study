@@ -344,4 +344,5 @@ Similar to Dynatrace, it enables you to monitor and manage various metrics and c
 ### AWS CloudTrail
 Records API calls for your account, basically a log of actions related to your account so you can check: WHO/WHERE/WHAT was done like: users being created by who, permissions changes, new resources, etc. There's also "CloudTrail Insights" that baiscally automatically detect unusual API activities in your AWS account
 
-### 
+### AWS Trusted Advisor
+Inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices in five categories: cost optimization, performance, security, fault tolerance, and service limits. There's a dashboard you can see the 5 categories and recomendations 
