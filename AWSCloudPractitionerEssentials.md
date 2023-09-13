@@ -390,3 +390,16 @@ You can hire AWS support in different levels and prices:
 #### AWS Market Place
 Digital catalog that includes thousands of software listings from independent software vendors
 
+---
+
+## Module 9: Migration and Innovation
+
+### AWS Cloud Adoption Framework (AWS CAF)
+Is a Framework created to help companies to move to cloud, it focus in 6 Perspective: 
+- Business: IT aligns with business needs and that IT investments link to key business results
+- People: Supports development of an organization-wide change management strategy for successful cloud adoption.
+- Governance: focuses on the skills and processes to align IT strategy with business strategy. This ensures that you maximize the business value and minimize risks
+- Plataform: Principles and patterns for implementing new solutions on the cloud, and migrating on-premises workloads to the clou
+- Security: Ensures that the organization meets security objectives for visibility, auditability, control, and agility
+- Operations: Helps you to enable, run, use, operate, and recover IT workloads to the level agreed upon with your business stakeholders
+
