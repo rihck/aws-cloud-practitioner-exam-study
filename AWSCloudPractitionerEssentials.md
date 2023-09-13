@@ -302,7 +302,7 @@ PS: An IAM role is an identity that you can assume to gain temporary access to p
 ---
 
 ### AWS Organizations
-Consolidate and manage multiple AWS accounts within a central location by using service control policies (SCPs), nable you to place restrictions on the AWS services, resources, and individual API actions that users and roles in each account can access.
+Consolidate and manage multiple AWS accounts within a central location by using service control policies (SCPs), Enable you to place restrictions on the AWS services, resources, and individual API actions that users and roles in each account can access.
 
 #### Organizational units
 In AWS Organizations, you can group accounts into organizational units (OUs) to make it easier to manage accounts with similar business or security requirements. When you apply a policy to an OU, all the accounts in the OU automatically inherit the permissions specified in the policy.  
@@ -365,4 +365,11 @@ Some AWS services are free to use and are divided in 3 categories
 
 ### AWS Pricing Calculator
 Lets you explore AWS services and create an estimate for the cost of your use cases on AWS. Basically you put the things you would need and can compare the costs in general like per region for example, and also separe them by group
+
+#### Billing Dashboard
+Where you can analyse your usage, costs, compare with previous months and pay your bill
+
+#### Consolided Billing
+When using AWS Organizations where you manage accounts, access and things like that there's a option of "Consolidated Billing" where you can combine/pay costs or manage it somehow, you can also configure to share resources between the orgs/accounts, etc
+
 
