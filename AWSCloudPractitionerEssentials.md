@@ -387,4 +387,6 @@ You can hire AWS support in different levels and prices:
   - All AWS Trusted Advisor checks;
   - Limited support for third-party software, such as common operating systems and application stack components
 
-#### 
+#### AWS Market Place
+Digital catalog that includes thousands of software listings from independent software vendors
+
