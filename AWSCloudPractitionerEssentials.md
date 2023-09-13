@@ -377,3 +377,14 @@ You can create budgets to plan your service usage, service costs, and instance r
 
 #### AWS Cost Explorer
 Tool that lets you visualize, understand, and manage your AWS costs and usage over time. It provides you graphics and data about the costs my month, resource, etc
+
+#### AWS Support
+You can hire AWS support in different levels and prices:
+- Basic Support is free for all AWS customers.
+- Developer support: Best practice guidance; Client-side diagnostic tools; Building-block architecture support.
+- Business Support: 
+  - Use-case guidance to identify AWS offerings, features, and services that can best support your specific needs; 
+  - All AWS Trusted Advisor checks;
+  - Limited support for third-party software, such as common operating systems and application stack components
+
+#### 
