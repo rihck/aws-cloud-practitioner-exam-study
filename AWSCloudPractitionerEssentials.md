@@ -375,4 +375,5 @@ When using AWS Organizations where you manage accounts, access and things like t
 #### AWS Bugets
 You can create budgets to plan your service usage, service costs, and instance reservations. You can define budget by service/account/resource and create alerts when it's about to get used in full for example.
 
-
+#### AWS Cost Explorer
+Tool that lets you visualize, understand, and manage your AWS costs and usage over time. It provides you graphics and data about the costs my month, resource, etc
