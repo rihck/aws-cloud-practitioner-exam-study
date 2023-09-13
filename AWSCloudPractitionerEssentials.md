@@ -422,3 +422,25 @@ IT'S NEEDED BECAUSE DOING THIS OVER INTERNET COULD TAKE MONTHS depending on the 
   - Compute Optimized: provides powerful computing resources for use cases such as machine learning: Storage: 80-TB usable HDD  | Compute: 104 vCPUs, 416 GiB of memory
 - AWS SnowMobile (a Fucking Truck): an exabyte-scale data transfer service used to move large amounts of data to AWS. 
 
+### Innovation with AWS (services that help you in different aspects)
+- Servless aoplications: AWS Lambda for example
+- Machine Learning: Amazon SageMaker
+- Artifical Intelligence 
+  - Amazon CodeWhispere: Get code recommendations while writing code and identify security issues in your code with 
+  - Amazon Transcribe: Convert speech to text
+  - Amazon Comprehend: Discover patterns in text
+  - Amazon Fraud Detector: Identify potentially fraudulent online activities
+  - Amazon Lex: Amazon Lex
+
+---
+
+## Module 10: The Cloud Journey
+
+### AWS Well-Architected Framework
+Helps you understand how to design and operate reliable, secure, efficient, and cost-effective systems in the AWS Cloud, it's based on 6 pillars
+* Operational excellence: Run and monitor systems to deliver business value and to continually improve supporting processes and procedures
+* Security: to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
+* Reliability: Recover from infrastructure or service disruptions; Dynamically acquire computing resources to meet demand; Mitigate disruptions such as misconfigurations or transient network issues
+* Performance efficiency: is the ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve.
+* Cost optimization: run systems to deliver business value at the lowest price point.
+* Sustainability: Continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required.
