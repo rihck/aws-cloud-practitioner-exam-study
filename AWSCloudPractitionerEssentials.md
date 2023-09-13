@@ -20,7 +20,7 @@ Each type has different combination of resources:
 **EC2 Instances Prices**
 Ordering: More expansive to less expansive 
 - On-Demand: Only pay per duration.
-- Sacings Plans: Offers lows price in trade of a commiment to a consistent usage
+- Saving Plans: Offers lows price in trade of a commiment to a consistent usage
 - Reserved Instances: When you commit for this instance in 1 or 3 year commitment. 
 - Spot instances: Can be 90% cheaper than OnDemand BUT the catch here is that AWS can request this instance back anytime, it notifies you 2 minutes before turning the instance down. This type is ideal for proccess that can be interrupted like batches 
 - Dedicated Hosts: Basically a phisical server only for you, suitable when you have law requiriments of not sharing the same hardware with other companies/proccess, so in this case it's not a multi-tenancy approach like the default AWS strategy.
