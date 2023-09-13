@@ -372,4 +372,7 @@ Where you can analyse your usage, costs, compare with previous months and pay yo
 #### Consolided Billing
 When using AWS Organizations where you manage accounts, access and things like that there's a option of "Consolidated Billing" where you can combine/pay costs or manage it somehow, you can also configure to share resources between the orgs/accounts, etc
 
+#### AWS Bugets
+You can create budgets to plan your service usage, service costs, and instance reservations. You can define budget by service/account/resource and create alerts when it's about to get used in full for example.
+
 
