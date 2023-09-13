@@ -403,3 +403,22 @@ Is a Framework created to help companies to move to cloud, it focus in 6 Perspec
 - Security: Ensures that the organization meets security objectives for visibility, auditability, control, and agility
 - Operations: Helps you to enable, run, use, operate, and recover IT workloads to the level agreed upon with your business stakeholders
 
+### 6 strategies for migration
+- Rehosting: Known as “lift-and-shift” involves moving applications without changes.
+- Replatforming: Also known as “lift, tinker, and shift,” involves making a few cloud optimizations to realize a tangible benefit.
+- Refactoring/re-architecting: Involves reimagining how an application is architected and developed by using cloud-native features
+- Repurchasing: involves moving from a traditional license to a software-as-a-service model. For example, a business might choose to implement the repurchasing strategy by migrating from a customer relationship management (CRM) system to Salesforce.com.
+- Retaining: Keeping applications that are critical for the business in the source environment.
+- Retiring: Removing applications that are no longer needed.
+
+### AWS Snow Family
+Collection of physical devices that help to physically transport up to exabytes of data into and out of AWS. 
+Basically using phisical devices from AWS (Little device or even a Truck for larger data) to move data INTO and OUT AWS depending on what you need.
+IT'S NEEDED BECAUSE DOING THIS OVER INTERNET COULD TAKE MONTHS depending on the size!
+
+- AWS SNOWCONE: small, rugged, and secure edge computing and data transfer device. It features 2 CPUs, 4 GB of memory, and up to 14 TB of usable storage.
+- AWS SNOWBALL
+  - Storage Optimized: well suited for large-scale data migrations and recurring transfer workflows: Storage: 80 TB of hard disk drive (HDD) | Compute: 40 vCPUs, and 80 GiB of memory 
+  - Compute Optimized: provides powerful computing resources for use cases such as machine learning: Storage: 80-TB usable HDD  | Compute: 104 vCPUs, 416 GiB of memory
+- AWS SnowMobile (a Fucking Truck): an exabyte-scale data transfer service used to move large amounts of data to AWS. 
+
