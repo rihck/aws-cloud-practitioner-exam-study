@@ -241,6 +241,12 @@ A AWS tem serviços que você pode usar de graça, mas esse "de graça" varia de
 ## AWS Price Calculator
 É literalmente uma calculadora pra você estimar quanto vai sair o uso de tais recursos por X tempo. É usado pra se planejar e ter uma ideia dos custos
 
+## Billing Dashboard
+É um lugar pra visualizar seus custos, como uso atual, comparar com meses anteriores, etc.
+
+## Consolided Billing
+É o lugar que tu consolida as cobranças, basicamente tu tem a visão das contas e organizações como um todo e pode juntar,separar os custos, cobranças, etc. Isso fica dentro da AWS Organizations falado mais acima, lá você já tem a visão de tudo, ai você só aplica o Billing a isso.
+
 
 
 
