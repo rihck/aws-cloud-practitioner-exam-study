@@ -161,3 +161,11 @@ Baseado em Mongo DB, um document-based DB
 ## Amazon Neptune
 É pra Graph (Grafo) e umas paradas loucas assim, tipo detecção de Fraude, etc.
 
+## Amazon ElasticCache
+É colocar uma camada de Cache em cima de bancos pra ficar mais rapido ainda. Da pra usar Redis e MemCache pra implementar
+
+## Amazon DynamoDB Acelerator
+Deixa o DynamoDB mais rapido ainda, de milisegundos pra microsegundos.
+
+## 
+
