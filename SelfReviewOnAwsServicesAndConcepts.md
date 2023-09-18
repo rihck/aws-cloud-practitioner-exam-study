@@ -173,5 +173,10 @@ Como o nome já diz, usado para "Gerenciar Redes Block Chain", seja lá o que fo
 ## Amazon Quantum Ledger 
 Ledger quer dizer razão, é tipo uma base de homologação, que tu pode ver o histórico completo das tuas aplicações.
 
+---
+
+## AWS Identity and Access Manager (IAM)
+É tipo o esquema do Spring Security, onde você configura: Usuários, Roles e Permissões e da acesso a nivel de usuario, grupos ou roles.
+
 
 
