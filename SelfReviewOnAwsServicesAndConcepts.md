@@ -90,3 +90,14 @@ A amazon chama os lugares que hospedam essas cópias de Edge Zones, são tipos z
 - Internet Gateway: Deixar entrar conexões no geral
 - AWS Direct Connect: Criar uma conexão direta física (Fibra) do seu local físico para AWS (através de parceiros na área)
 
+### Subnets
+É criar outra separação lógica dentro de uma VPC para limitar acesso. Você pode ter uma VPC com subnets e controlar permissões a nível de subnet.
+
+### Network ACL (Network Access Control List)
+Basicamente uma configuração a nivel de rede que você configura acessos, por padrão tudo é permitido e você começa a configurar as excessões.
+Vale lembrar que ele é stateless, não guarda estado, então é a request é validada na entrada e saida, de forma que pode acontecer da request poder entrar mas não poder sair dependendo do tipo de configuração
+
+### Security Group
+Uma configuração a nível de instância EC2, por padrão vem definido para negar todas requisições e você precisa habilitar os acessos.
+Ela é stateful, ou seja, mantém estado e não valida as informações na saída, somente entrada. Basicamente tudo que entra, sai.
+
