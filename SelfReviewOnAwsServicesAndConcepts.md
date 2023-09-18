@@ -230,7 +230,13 @@ Esse sim é igual o Dynatrace, serve pra monitorar sua aplicação no geral, ver
 - Tolerança a Falha
 - Service Limits (latencia?)
 
+---
 
+## AWS Free Tiers
+A AWS tem serviços que você pode usar de graça, mas esse "de graça" varia de serviço pra serviço e variam em 3 condições
+- Sempre de graça
+- 12 meses: Você usa durante 12 meses e depois começa a pagar
+- Trial: É uma forma de testar o serviço sem custo, mas isso pode variar de um serviço pra outro, tipo: Horas de uso, tempo de uso, quantidade de chamadas, quantidade de espaço, etc
 
 
 
