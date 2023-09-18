@@ -141,6 +141,6 @@ O S3 tem diferentes tipos de tiers que você escolhe baseado em "Qual frequente 
 É um serviço que permite rodar bancos relacionais na AWS, é uma solução pra você não precisar ter uma instancia EC2 e ter que manter ela (cuidar de patching, etc). Você instala seu banco relacional, tipo MySQL e o ambiente é gerenciado pela AWS, coisas como o patching do OS e do banco relacional em si.
 
 ## Amazon Aurora
-É o banco relacional da AWS, tipo um MySQL da vida.
+É o banco relacional da AWS, tipo um MySQL da vida. Na teoria é mais rapido que os outros bancos relacionais.
 
 ## 
