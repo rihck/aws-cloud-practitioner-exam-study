@@ -225,6 +225,14 @@ Esse sim é igual o Dynatrace, serve pra monitorar sua aplicação no geral, ver
 ## AWS CloudTrail
 É um lugar que registra todas as ações realizadas nas contas e nas aplicações da AWS, uma espécie de lugar para consolidação e ver tudo que aconteceu, tipo um histórico. Tipo, quem/onde/quando fez isso (criou um usuário, mudou permissão, startou/parou um recurso, etc)
 
+## AWS Trusted Advisor
+É um serviço que da sugestões pra ti na sua arquitetura AWS, tem tipo um Dashboard que você consegue ver o quanto a sua aplicação "está boa" levando em conta as 5 categorias que ele analisa
+- Otimização de Custo
+- Performance
+- Segurança
+- Tolerança a Falha
+- Service Limits (latencia?)
+
 
 
 
