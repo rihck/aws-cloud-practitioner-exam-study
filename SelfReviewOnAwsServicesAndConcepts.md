@@ -147,4 +147,12 @@ O S3 tem diferentes tipos de tiers que você escolhe baseado em "Qual frequente 
 É o DB não relacional da amazon, baseado em Key-Value, é servless e altamente escalável.
 
 ## Amazon Redshift
-É um warehouse para PowerBI / Analytics, muito escalável, aguenta muito volume e deixa tu coletar dados de N bases pra manipular nesses contextos de relatórios, reports, etc. 
+É um warehouse para PowerBI / Analytics, muito escalável, aguenta muito volume e deixa tu coletar dados de N bases pra manipular nesses contextos de relatórios, reports, etc.
+
+## AWS Data Migration Service
+Como o nome já diz, destinado a migração de dados para dentro/fora da AWS, galera pode usar pra: 
+- Testar uma migração parcialmente, 
+- Consolidar bancos de dados (pegar de varias fontes e juntar tudo num só)
+- Replicação continua (tipo um Backup incremental?)
+
+
