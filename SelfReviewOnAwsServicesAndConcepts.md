@@ -278,4 +278,10 @@ Tem tipos diferentes de suport na AWS, sendo eles:
 - Operations: Ajuda você a habilitar, executar, usar, operar e recuperar cargas de trabalho de TI no nível acordado com as partes interessadas do seu negócio
 
 
-
+#### Estratégias
+- Rehosting: Só jogar a solução pra Cloud sem mexer em nada
+- Replatforming: Fazer alguns ajustes de otimização de cloud e jogar para lá
+- Refactoring/re-architecting: Mudar como a solução funciona hoje em dia, basicamente refatorar para usar soluções cloud-native
+- Repurchasing: Basicamente sair de um software proprietário para comprar um que resolva o mesmo problema, tipo sair de um customer relationship management (CRM) para o SalesForce, então isso envolve comprar a licença.
+- Retaining: Manter as aplicações que são CORE da empresa no ambiente delas (não migrar pra Cloud)
+- Retiring: Aposentar solução que não é mais necessária
