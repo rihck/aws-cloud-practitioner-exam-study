@@ -190,3 +190,6 @@ Também existem as Policies, que é basicamente um documento que define acessos 
 ### Organizational Units
 É basicamente agrupar coisas (usuários, grupos, cargos) nessas organizações para consolidar de uma forma melhor e aplicar coisas a nível disso tipo: acessos, restrições a recursos, ações, etc.
 
+---
+
+
