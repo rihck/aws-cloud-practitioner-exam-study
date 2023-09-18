@@ -195,6 +195,12 @@ Também existem as Policies, que é basicamente um documento que define acessos 
 
 ---
 
+## AWS Shield
+É uma solução da AWS que protege dos ataques mais comuns de DDOS, é de graça nos serviços que herdam isso.
+
+## AWS Shield Advance
+É igual o AWS Shield mas é pago porque tem proteções mais avançadas de DDoS e permite tu configurar politicas customizadas e ter acesso a dados customizados dos ataques que aconteceram e da rede em si.
+
 
 
 
