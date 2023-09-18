@@ -17,5 +17,24 @@
 
 ---
 
+## Amazon EC2 Auto Scaling
+Onde basicamente você configura parametros para a AWS cuidar do escalamento e subir mais instancias automaticamente de acordo com:
+- Minimo de instancias
+- Num de instancias desejadas
+- Maximo de instancias
 
+---
+
+## Elastic Load Balancing (ELB)
+Basicamente uma solução para distribuir a carga entre suas instâncias (não escala tuas instancias, só distribui a carga). E a solução em si é auto escalável, ela consegue se escalar ao receber muita demanda.
+
+---
+
+## AMAZON SNS e SQS
+Basicamente os serviços de fila e topico da AWS
+
+- SQS: Simple Queue Service
+- QNS: Simple Notification Service
+
+---
 
