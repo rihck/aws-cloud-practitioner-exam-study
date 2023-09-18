@@ -214,6 +214,11 @@ Lembra o Veracode Scan, ele ve potencial ameaças em configurações e definiç�
 É mais completo que o Inspector, ele analisa toda a estrutura AWS da sua conta, envolve Machine Learning e visa te dar outputs de vulnerabilidade.
 Ele analise como workloads, data armazenada e você também pode configurar triggers inteligentes para quando achar alguma coisa de segurança.
 
+## Amazon Web Application Firewall (AWS WAF)
+É um firewall pra tua aplicação que te deixa ver (e talvez filtrar) as requests chegando 
+
+---
+
 
 
 
