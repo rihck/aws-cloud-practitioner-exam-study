@@ -118,3 +118,5 @@ Diferente do volume de instância, é separado da instancia EC2 mas pode ser "pl
 ## Amazon Simple Storage Service (Amazon S3) [Object Storage]
 É um tipo de armazenamento que salva as coisas no formato de objeto, basicamente composto de Key+Objeto+Metadata. Você pode guardar qualquer coisa tipo videos, imagem, arquivos ,etc.
 Tem armazenamento ilimitado no geral e cada objeto pode pesar no máximo 5 TB. O preço "por MB" dele fica mais barato conforme você usa mais.
+
+O S3 tem diferentes tipos de tiers que você escolhe baseado em "Qual frequente você vai acessar aquele dado" E "Em quanto tempo você precisa que ele esteja disponível". Os tipos de tiers variam com base nisso e os preços também.
