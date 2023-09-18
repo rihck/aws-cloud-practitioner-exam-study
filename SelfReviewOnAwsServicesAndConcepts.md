@@ -285,3 +285,15 @@ Tem tipos diferentes de suport na AWS, sendo eles:
 - Repurchasing: Basicamente sair de um software proprietário para comprar um que resolva o mesmo problema, tipo sair de um customer relationship management (CRM) para o SalesForce, então isso envolve comprar a licença.
 - Retaining: Manter as aplicações que são CORE da empresa no ambiente delas (não migrar pra Cloud)
 - Retiring: Aposentar solução que não é mais necessária
+
+---
+
+## AWS Snow Family
+Basicamente dispositivos fisicos pra tu migrar colocar teus dados e migrar para dentro/fora da AWS, isso pensando que transferir grandes quantias pela internet podem levar meses e até anos, então tem dispositivos fisicos que a AWS entrega pra tu poder colocar teus dados e fazer a transferencia mais rapido através de cabos e forma fisica
+
+- AWS Snowcome: O mais simples de todos, armazena até 14 TB
+- AWS Snowball: Intermediário, tem 2 versões, Storage e Compute Optimized como o nome já sugere. O Storage optimized é mais lento mas guarda mais dados (até 80 TB), enquanto o outro até 39 TB +-
+- AWS SnowMobile: A porra de um caminhão com container todo seguro e refrigerado que vai até sua porta pra tu carregar com os dados. Essa porra aguenta até 100 PB de Dados. Puta que pariu
+
+---
+
