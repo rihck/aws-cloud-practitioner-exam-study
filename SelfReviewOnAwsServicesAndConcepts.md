@@ -107,3 +107,12 @@ Ela é stateful, ou seja, mantém estado e não valida as informações na saíd
 
 ---
 
+## Instance Volume
+Basicamente um DB a nivel de instancia EC2, ele está diretamente ligado a instancia que está rodando, se a instancia for reiniciada os dados se perdem. 
+Indicado para casos de processamento em batch ou que os dados podem ser recriados facilmente
+
+## Amazon Elastic Block Store (EBS) [Block Storage]
+Diferente do volume de instância, é separado da instancia EC2 mas pode ser "plugada" na instância e pode ser reutilizada sem perder os dados ao mudar de instancia/ligar/desligar.
+É um armazenamento do tipo "Block", que é salvo como um todo num bloco só, ele faz backup incremental agendado.
+
+## 
