@@ -444,4 +444,3 @@ Helps you understand how to design and operate reliable, secure, efficient, and 
 * Performance efficiency: is the ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve.
 * Cost optimization: run systems to deliver business value at the lowest price point.
 * Sustainability: Continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required.
-
