@@ -101,3 +101,5 @@ Vale lembrar que ele é stateless, não guarda estado, então é a request é va
 Uma configuração a nível de instância EC2, por padrão vem definido para negar todas requisições e você precisa habilitar os acessos.
 Ela é stateful, ou seja, mantém estado e não valida as informações na saída, somente entrada. Basicamente tudo que entra, sai.
 
+---
+
