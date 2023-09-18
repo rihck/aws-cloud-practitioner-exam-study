@@ -251,7 +251,9 @@ A AWS tem serviços que você pode usar de graça, mas esse "de graça" varia de
 É literalmente criar um budget de gasto pra não ultrapssar isso, você pode configurar limites (budgets) por serviço, conta, recurso e até criar alertas pra quando ultrapassar ou estiver perto de ultrapassar.
 
 ## AWS Cost Explorer
-Similar ao Billing Dashboard mas parece que tem uma pegada mais gerencial, ele tem gráficos e deixa ver seus custos com diversas perspectivas e filtros diferentes para analisar seus custos passados e atuais.
+Similar ao Billing Dashboard mas é um serviço pago e deixa você ir mais a fundo nos detalhes, você pode pesquisar coisas através de queries buscando detalhes como uso por região, por tags, etc.
+
+
 
 
 
