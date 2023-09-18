@@ -190,9 +190,12 @@ Também existem as Policies, que é basicamente um documento que define acessos 
 ### Organizational Units
 É basicamente agrupar coisas (usuários, grupos, cargos) nessas organizações para consolidar de uma forma melhor e aplicar coisas a nível disso tipo: acessos, restrições a recursos, ações, etc.
 
----
-
 ## AWS Artifact
 É um lugar que tem as politicas de compilance dos serviços da Amazon, cada serviço tem um compilance diferente e tudo está consolidado e pode ser consultado aqui
+
+---
+
+
+
 
 
