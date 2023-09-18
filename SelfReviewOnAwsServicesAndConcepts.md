@@ -182,4 +182,4 @@ Se baseia em criar grupos, usuários e cargos e distribuir permissões nesses di
 PS: Eles consideram o Approach de roles como "dar acesso temporário a algo", tipo dar uma role temporária para dar acesso e depois remover a role
 PS II: Contam com a estratégia de "menos acesso possível", onde deve-se restringir o acesso ao máximo deixando só o necessário
 
-
+Também existem as Policies, que é basicamente um documento que define acessos ou restrições aos recursos da AWS
