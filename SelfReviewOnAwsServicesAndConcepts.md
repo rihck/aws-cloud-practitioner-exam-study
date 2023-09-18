@@ -222,6 +222,9 @@ Ele analise como workloads, data armazenada e você também pode configurar trig
 ## Amazon CloudWatch
 Esse sim é igual o Dynatrace, serve pra monitorar sua aplicação no geral, ver estatísticas, logs, métricas e até configurar alertas baseado nessas coisas.
 
+## AWS CloudTrail
+É um lugar que registra todas as ações realizadas nas contas e nas aplicações da AWS, uma espécie de lugar para consolidação e ver tudo que aconteceu, tipo um histórico. Tipo, quem/onde/quando fez isso (criou um usuário, mudou permissão, startou/parou um recurso, etc)
+
 
 
 
