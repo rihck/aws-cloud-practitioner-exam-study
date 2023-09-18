@@ -131,3 +131,6 @@ O S3 tem diferentes tipos de tiers que você escolhe baseado em "Qual frequente 
 | S3 Glacier Deep Archive                                 | Menor custo de todos MAS pode ser acessado de 1 ate 2 vezes por ano.                                                                                               | Baixissima (1 a 2x no ano) | Baixissima (12 a 48 horas)                                         |   |
 | S3 Glacier Flexible Retrieval                           | Mais flexivel que o Deep Archive, mas mais caro. Nivel Intermediario do Glacier                                                                                    | Baixa                      | Baixa (Minutos ate 12 horas)                                       |   |
 | S3 Glacier Instant Retrieval                            | Acesso rapido em mili segundos mas mais caro das 3 opcoes                                                                                                          | Baixa                      | Alta (mili-segundos)                                               |   |
+
+---
+
