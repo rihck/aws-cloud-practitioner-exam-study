@@ -115,4 +115,6 @@ Indicado para casos de processamento em batch ou que os dados podem ser recriado
 Diferente do volume de instância, é separado da instancia EC2 mas pode ser "plugada" na instância e pode ser reutilizada sem perder os dados ao mudar de instancia/ligar/desligar.
 É um armazenamento do tipo "Block", que é salvo como um todo num bloco só, ele faz backup incremental agendado.
 
-## 
+## Amazon Simple Storage Service (Amazon S3) [Object Storage]
+É um tipo de armazenamento que salva as coisas no formato de objeto, basicamente composto de Key+Objeto+Metadata. Você pode guardar qualquer coisa tipo videos, imagem, arquivos ,etc.
+Tem armazenamento ilimitado no geral e cada objeto pode pesar no máximo 5 TB. O preço "por MB" dele fica mais barato conforme você usa mais.
