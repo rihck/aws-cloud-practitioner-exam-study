@@ -178,5 +178,8 @@ Ledger quer dizer razão, é tipo uma base de homologação, que tu pode ver o h
 ## AWS Identity and Access Manager (IAM)
 É tipo o esquema do Spring Security, onde você configura: Usuários, Roles e Permissões e da acesso a nivel de usuario, grupos ou roles.
 
+Se baseia em criar grupos, usuários e cargos e distribuir permissões nesses diferentes níveis.
+PS: Eles consideram o Approach de roles como "dar acesso temporário a algo", tipo dar uma role temporária para dar acesso e depois remover a role
+PS II: Contam com a estratégia de "menos acesso possível", onde deve-se restringir o acesso ao máximo deixando só o necessário
 
 
