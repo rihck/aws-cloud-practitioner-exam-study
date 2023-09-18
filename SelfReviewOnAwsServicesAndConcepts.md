@@ -155,4 +155,6 @@ Como o nome já diz, destinado a migração de dados para dentro/fora da AWS, ga
 - Consolidar bancos de dados (pegar de varias fontes e juntar tudo num só)
 - Replicação continua (tipo um Backup incremental?)
 
+## Amazon Document DB
+Baseado em Mongo DB, um document-based DB
 
