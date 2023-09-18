@@ -183,3 +183,10 @@ PS: Eles consideram o Approach de roles como "dar acesso temporário a algo", ti
 PS II: Contam com a estratégia de "menos acesso possível", onde deve-se restringir o acesso ao máximo deixando só o necessário
 
 Também existem as Policies, que é basicamente um documento que define acessos ou restrições aos recursos da AWS
+
+## AWS Organizations
+É um lugar que você gerenia as contas e recursos da AWS num unico lugar, basicamente um lugar de consolidação onde você pode verificar e gerenciar acessos a nivel de usuário, conta, grupos, recursos, etc.
+
+### Organizational Units
+É basicamente agrupar coisas (usuários, grupos, cargos) nessas organizações para consolidar de uma forma melhor e aplicar coisas a nível disso tipo: acessos, restrições a recursos, ações, etc.
+
