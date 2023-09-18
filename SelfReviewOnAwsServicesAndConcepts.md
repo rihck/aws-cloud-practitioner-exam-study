@@ -137,4 +137,10 @@ O S3 tem diferentes tipos de tiers que você escolhe baseado em "Qual frequente 
 ## Amazon Elastic File System (EFS)
 É parecido com o EBS (Elastic Block Storage) com a diferença que o EFS é MultiZone, ele é um serviço que pode rodar em N zonas, já o EBS roda em uma unica zona acoplada a instancia do EC2.
 
+## Amazon Relational Database (RDS)
+É um serviço que permite rodar bancos relacionais na AWS, é uma solução pra você não precisar ter uma instancia EC2 e ter que manter ela (cuidar de patching, etc). Você instala seu banco relacional, tipo MySQL e o ambiente é gerenciado pela AWS, coisas como o patching do OS e do banco relacional em si.
+
+## Amazon Aurora
+É o banco relacional da AWS, tipo um MySQL da vida.
+
 ## 
