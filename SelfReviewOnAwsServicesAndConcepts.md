@@ -48,4 +48,7 @@ Outra solução Servless da AWS, basicamente pra você rodar coisas conternizada
 
 --
 
+## AWS Fargate?
+É usado para rodar containers sem precisar gerenciar servidores ou os cluster na AWS.
 
+## 
