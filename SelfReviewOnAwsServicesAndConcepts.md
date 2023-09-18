@@ -38,3 +38,14 @@ Basicamente os serviços de fila e topico da AWS
 
 ---
 
+## AWS Lambda
+Solução Servless da AWS em que você deploya seu código (Função Lambda) e configura um gatilho. Você não precisa se preocupar com o servidor em si, só deployar seu código e garantir que ele rode em menos de 15 minutos porque é o tempo limite de uma função Lambda. Você paga por tempo de processamento no geral no fim do mes
+
+--
+
+## Amazon Elastic Container Service (ECS) / Amazon Elastic Kubernetes Service (EKS):
+Outra solução Servless da AWS, basicamente pra você rodar coisas conternizadas. Em ambas vocês não precisa managear os containers. 
+
+--
+
+
