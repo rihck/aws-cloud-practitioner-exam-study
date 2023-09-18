@@ -146,4 +146,5 @@ O S3 tem diferentes tipos de tiers que você escolhe baseado em "Qual frequente 
 ## Amazon Dynamo DB
 É o DB não relacional da amazon, baseado em Key-Value, é servless e altamente escalável.
 
-
+## Amazon Redshift
+É um warehouse para PowerBI / Analytics, muito escalável, aguenta muito volume e deixa tu coletar dados de N bases pra manipular nesses contextos de relatórios, reports, etc. 
