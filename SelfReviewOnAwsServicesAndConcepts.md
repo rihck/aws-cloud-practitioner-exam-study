@@ -247,6 +247,9 @@ A AWS tem serviços que você pode usar de graça, mas esse "de graça" varia de
 ## Consolided Billing
 É o lugar que tu consolida as cobranças, basicamente tu tem a visão das contas e organizações como um todo e pode juntar,separar os custos, cobranças, etc. Isso fica dentro da AWS Organizations falado mais acima, lá você já tem a visão de tudo, ai você só aplica o Billing a isso.
 
+## AWS Budgets
+É literalmente criar um budget de gasto pra não ultrapssar isso, você pode configurar limites (budgets) por serviço, conta, recurso e até criar alertas pra quando ultrapassar ou estiver perto de ultrapassar.
+
 
 
 
