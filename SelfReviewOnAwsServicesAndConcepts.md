@@ -58,4 +58,30 @@ Por exemplo, o brasil pode ter 3 regiões, ai você escolhe a Região Brasil e Z
 Cada região tem um preço e você escolhe dependendo da necessidade da sua aplicação (mais próxima do usuário / mais barata ou por questões de compilance)
 
 
-##
+## CDN
+É tipo uma cópia de dados da sua aplicação que tu coloca mais perto do seu usário, pra diminuir a latencia.
+
+### Amazon CloudFront
+É a solução da amazon que implementa essa definição de CDN, você usa quando quer ter essa cópias locais de dados da aplicação em lugares específicos, mais perto do usuário pra diminuir a latencia
+
+### Edge Zones
+A amazon chama os lugares que hospedam essas cópias de Edge Zones, são tipos zonas não convencionais que eles usam para guardar esses dados de CDN e também outras coisas tipo o Amazon Route 53.
+
+## Amazon Route S3
+É o serviço de DNS da Amazon, que mapeia teu endereço DNS pra um IP
+
+## AWS Outposts
+É basicamente instalar os recursos da AWS num servidor físico teu, quando tu quer por exemplo colocar teu App numa região que a AWS não cobre ou quer só usar teus recursos físicos mesmo.
+
+---
+
+## Formas de Interagir com a AWS
+- Browser: Ir no navegador através de UI e gerenciar as coisas
+- CLI: Interagir através de command line, tipo APIs REST
+- SDK: Importar uma LIB no teu código pra interagir com os recursos
+- AWS CloudFormation: Tu cria um arquivo JSON com as configs abstraídas de quais recursos tu quer, quantas instancias, etc. E esse arquivo serve de template. Focam nesse exemplo falando: Você só se preocupa com o QUE VOCÊ QUER e não COMO FAZER.
+- AWS Elastic Beanstalk: É a mesma ideia do CloudFormation mas não é através de arquivo, tu fala o que você quer, quantas instancias e ele deploya pra ti e gerencia
+
+---
+
+
