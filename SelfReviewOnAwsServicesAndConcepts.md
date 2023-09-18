@@ -253,7 +253,8 @@ A AWS tem serviços que você pode usar de graça, mas esse "de graça" varia de
 ## AWS Cost Explorer
 Similar ao Billing Dashboard mas é um serviço pago e deixa você ir mais a fundo nos detalhes, você pode pesquisar coisas através de queries buscando detalhes como uso por região, por tags, etc.
 
-
+## AWS Market Place
+Digital catalog that includes thousands of software listings from independent software vendors
 
 
 
