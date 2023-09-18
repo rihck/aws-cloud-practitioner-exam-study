@@ -264,6 +264,16 @@ Tem tipos diferentes de suport na AWS, sendo eles:
   - Tem todos Trusted Advisor Checks: Aquele serviço que analisa sua estrutura em 5 categorias e te dá um feedback em como melhorar, etc
 - Enterprise: Mais foda que o Business, também tem o Trusted Advisor e umas paradas a mais ai
 
+---
+
+## AWS Cloud Adoption Framework (AWS CAF)
+É um framework criado pela AWS para ajudar com a migração para Cloud, ele define alguns pilares que devem ser seguidos, sendo divididos em
+
+#### Grupos
+- Business: Se alinha com o time de TI para que os esforços/investimentos sejam direcionados a conseguir os business values
+- People: Suportam e ajudam a mudança de mindset da organização em relação a Cloud
+- Governance: Alinham esforços do Business e IT para minimizar riscos riscos e potencializar business value
+- 
 
 
 
