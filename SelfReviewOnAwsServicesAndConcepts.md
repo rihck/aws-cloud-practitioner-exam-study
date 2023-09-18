@@ -167,5 +167,11 @@ Baseado em Mongo DB, um document-based DB
 ## Amazon DynamoDB Acelerator
 Deixa o DynamoDB mais rapido ainda, de milisegundos pra microsegundos.
 
-## 
+## Amazon Managed Blockchain
+Como o nome já diz, usado para "Gerenciar Redes Block Chain", seja lá o que for isso.
+
+## Amazon Quantum Ledger 
+Ledger quer dizer razão, é tipo uma base de homologação, que tu pode ver o histórico completo das tuas aplicações.
+
+
 
