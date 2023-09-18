@@ -84,4 +84,9 @@ A amazon chama os lugares que hospedam essas cópias de Edge Zones, são tipos z
 
 ---
 
+## Amazon Virtual Private Cloud (VPC)
+É basicamente criar uma sessão isolada de rede na AWS e colocar seus recursos lá. Essa VPC não tem acesso exterior nenhum ao criada, ela pode ter dependendo do conector que você coloca nela que podem ser:
+- Virtual Private Gateway: Só deixa entrar conexões autorizadas
+- Internet Gateway: Deixar entrar conexões no geral
+- AWS Direct Connect: Criar uma conexão direta física (Fibra) do seu local físico para AWS (através de parceiros na área)
 
