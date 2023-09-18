@@ -273,8 +273,9 @@ Tem tipos diferentes de suport na AWS, sendo eles:
 - Business: Se alinha com o time de TI para que os esforços/investimentos sejam direcionados a conseguir os business values
 - People: Suportam e ajudam a mudança de mindset da organização em relação a Cloud
 - Governance: Alinham esforços do Business e IT para minimizar riscos riscos e potencializar business value
-- 
-
+- Plataform: Definem e seguem os principios e padrões 
+- Security: Basicamente cuida da parte de segurança 
+- Operations: Ajuda você a habilitar, executar, usar, operar e recuperar cargas de trabalho de TI no nível acordado com as partes interessadas do seu negócio
 
 
 
