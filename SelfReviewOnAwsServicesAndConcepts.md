@@ -192,4 +192,7 @@ Também existem as Policies, que é basicamente um documento que define acessos 
 
 ---
 
+## AWS Artifact
+É um lugar que tem as politicas de compilance dos serviços da Amazon, cada serviço tem um compilance diferente e tudo está consolidado e pode ser consultado aqui
+
 
