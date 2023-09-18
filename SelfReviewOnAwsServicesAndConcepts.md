@@ -158,3 +158,6 @@ Como o nome já diz, destinado a migração de dados para dentro/fora da AWS, ga
 ## Amazon Document DB
 Baseado em Mongo DB, um document-based DB
 
+## Amazon Neptune
+É pra Graph (Grafo) e umas paradas loucas assim, tipo detecção de Fraude, etc.
+
