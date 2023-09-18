@@ -297,3 +297,21 @@ Basicamente dispositivos fisicos pra tu migrar colocar teus dados e migrar para 
 
 ---
 
+## Amazon SegeMaker
+Pra Machine Learning
+
+## Amazon Code Whisperer
+Meio que um sonar, ele tá sugestões de melhoria de código
+
+## Amazon Transcribe
+Converte fala em texto
+
+## Amazon Comprehend
+Acha padrões em texto
+
+## Amazon Fraud Detector
+Identifica possíveis atividades fraudulentas
+
+## Amazon Lex
+Pra desenvolver ChatBots
+
