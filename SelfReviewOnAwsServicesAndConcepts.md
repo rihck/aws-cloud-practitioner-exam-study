@@ -143,4 +143,7 @@ O S3 tem diferentes tipos de tiers que você escolhe baseado em "Qual frequente 
 ## Amazon Aurora
 É o banco relacional da AWS, tipo um MySQL da vida. Na teoria é mais rapido que os outros bancos relacionais.
 
-## 
+## Amazon Dynamo DB
+É o DB não relacional da amazon, baseado em Key-Value, é servless e altamente escalável.
+
+
