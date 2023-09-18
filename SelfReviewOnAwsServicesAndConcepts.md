@@ -67,8 +67,12 @@ Cada região tem um preço e você escolhe dependendo da necessidade da sua apli
 ### Edge Zones
 A amazon chama os lugares que hospedam essas cópias de Edge Zones, são tipos zonas não convencionais que eles usam para guardar esses dados de CDN e também outras coisas tipo o Amazon Route 53.
 
-## Amazon Route S3
-É o serviço de DNS da Amazon, que mapeia teu endereço DNS pra um IP
+## Amazon Route 53
+É o serviço de DNS da Amazon, que mapeia teu endereço DNS pra um IP.
+E você também pode deixar esse routeamento smart configurando baseado em por exemplo:
+- Geolocalização
+- RoundRobin / Weigth Round Robin
+- Latencia
 
 ## AWS Outposts
 É basicamente instalar os recursos da AWS num servidor físico teu, quando tu quer por exemplo colocar teu App numa região que a AWS não cobre ou quer só usar teus recursos físicos mesmo.
