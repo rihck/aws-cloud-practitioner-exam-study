@@ -204,8 +204,8 @@ Também existem as Policies, que é basicamente um documento que define acessos 
 ## AWS Key
 Serviço de encriptação e gerenciamento de chaves da AWS
 
-## AWS WAF
-?
+## Amazon Web Application Firewall (AWS WAF)
+É um firewall pra tua aplicação que te deixa ver (e talvez filtrar) as requests chegando
 
 ## Amazon Inspector
 Lembra o Veracode Scan, ele ve potencial ameaças em configurações e definições, meio que a nível da sua aplicação só, a nivel do EC2 também, de verificar por exemplo se a sua instancia tem pontos de acesso aberto
@@ -213,9 +213,6 @@ Lembra o Veracode Scan, ele ve potencial ameaças em configurações e definiç�
 ## Amazon GuardDuty
 É mais completo que o Inspector, ele analisa toda a estrutura AWS da sua conta, envolve Machine Learning e visa te dar outputs de vulnerabilidade.
 Ele analise como workloads, data armazenada e você também pode configurar triggers inteligentes para quando achar alguma coisa de segurança.
-
-## Amazon Web Application Firewall (AWS WAF)
-É um firewall pra tua aplicação que te deixa ver (e talvez filtrar) as requests chegando 
 
 ---
 
