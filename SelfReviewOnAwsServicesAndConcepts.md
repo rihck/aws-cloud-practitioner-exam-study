@@ -198,8 +198,21 @@ Também existem as Policies, que é basicamente um documento que define acessos 
 ## AWS Shield
 É uma solução da AWS que protege dos ataques mais comuns de DDOS, é de graça nos serviços que herdam isso.
 
-## AWS Shield Advance
+## AWS Shield Advanced
 É igual o AWS Shield mas é pago porque tem proteções mais avançadas de DDoS e permite tu configurar politicas customizadas e ter acesso a dados customizados dos ataques que aconteceram e da rede em si.
+
+## AWS Key
+Serviço de encriptação e gerenciamento de chaves da AWS
+
+## AWS WAF
+?
+
+## Amazon Inspector
+Lembra o Veracode Scan, ele ve potencial ameaças em configurações e definições, meio que a nível da sua aplicação só, a nivel do EC2 também, de verificar por exemplo se a sua instancia tem pontos de acesso aberto
+
+## Amazon GuardDuty
+É mais completo que o Inspector, ele analisa toda a estrutura AWS da sua conta, envolve Machine Learning e visa te dar outputs de vulnerabilidade.
+Ele analise como workloads, data armazenada e você também pode configurar triggers inteligentes para quando achar alguma coisa de segurança.
 
 
 
