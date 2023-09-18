@@ -238,6 +238,9 @@ A AWS tem serviços que você pode usar de graça, mas esse "de graça" varia de
 - 12 meses: Você usa durante 12 meses e depois começa a pagar
 - Trial: É uma forma de testar o serviço sem custo, mas isso pode variar de um serviço pra outro, tipo: Horas de uso, tempo de uso, quantidade de chamadas, quantidade de espaço, etc
 
+## AWS Price Calculator
+É literalmente uma calculadora pra você estimar quanto vai sair o uso de tais recursos por X tempo. É usado pra se planejar e ter uma ideia dos custos
+
 
 
 
