@@ -134,3 +134,7 @@ O S3 tem diferentes tipos de tiers que você escolhe baseado em "Qual frequente 
 
 ---
 
+## Amazon Elastic File System (EFS)
+É parecido com o EBS (Elastic Block Storage) com a diferença que o EFS é MultiZone, ele é um serviço que pode rodar em N zonas, já o EBS roda em uma unica zona acoplada a instancia do EC2.
+
+## 
