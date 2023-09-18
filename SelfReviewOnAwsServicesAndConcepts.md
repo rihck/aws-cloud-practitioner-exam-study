@@ -51,4 +51,11 @@ Outra solução Servless da AWS, basicamente pra você rodar coisas conternizada
 ## AWS Fargate?
 É usado para rodar containers sem precisar gerenciar servidores ou os cluster na AWS.
 
-## 
+
+## Região e Zonas
+É uma região é um local composto de várias zonas, e cada zona é um conjunto de recursos isolados na AWS.
+Por exemplo, o brasil pode ter 3 regiões, ai você escolhe a Região Brasil e Zona-3 pra rodar sua aplicação.
+Cada região tem um preço e você escolhe dependendo da necessidade da sua aplicação (mais próxima do usuário / mais barata ou por questões de compilance)
+
+
+##
