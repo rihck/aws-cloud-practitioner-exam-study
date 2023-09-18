@@ -219,6 +219,9 @@ Ele analise como workloads, data armazenada e você também pode configurar trig
 
 ---
 
+## Amazon CloudWatch
+Esse sim é igual o Dynatrace, serve pra monitorar sua aplicação no geral, ver estatísticas, logs, etc
+
 
 
 
