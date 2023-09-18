@@ -256,6 +256,14 @@ Similar ao Billing Dashboard mas é um serviço pago e deixa você ir mais a fun
 ## AWS Market Place
 Digital catalog that includes thousands of software listings from independent software vendors
 
+## AWS Support
+Tem tipos diferentes de suport na AWS, sendo eles:
+- Basic: Todos tem direito e não custa nada
+- Developer: Guia de boas práticas, Ferramentas de Dianostico de erros, suporte de utilização de ferramentas
+- Business: Identificar os serviços da AWS, combinações e configurações que podem te ajudar a atender suas necessidades de negócio
+  - Tem todos Trusted Advisor Checks: Aquele serviço que analisa sua estrutura em 5 categorias e te dá um feedback em como melhorar, etc
+- Enterprise: Mais foda que o Business, também tem o Trusted Advisor e umas paradas a mais ai
+
 
 
 
